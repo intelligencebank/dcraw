@@ -1,5 +1,5 @@
 ## Customized dcraw with -O support for ImageMagick delegates
--- based on [Dave Coffin's work](http://www.cybercom.net/~dcoffin/dcraw/)
+-- based on [Dave Coffin's work](http://www.cybercom.net/~dcoffin/dcraw/) and [ImageMagick dcraw delegate](http://www.imagemagick.org/download/delegates/dcraw-9.26.0.tar.gz)
 
 ### Install
 ```
@@ -16,3 +16,6 @@ In /etc/ImageMagick/delegates.xml, replace
 with
 
 `<delegate decode="dng:decode" stealth="True" command="/usr/local/bin/dcraw -6 -W -O &quot;%u.ppm&quot; &quot;%i&quot;"/>`
+
+### License
+GPL - 3
