@@ -1,0 +1,347 @@
+# Japanese translation of dcraw messages.
+# (c) 2015 KITAGAWA Masahiro arctica0316 a gmail o com
+# Distribute freely.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dcraw 9.24\n"
+"Report-Msgid-Bugs-To: dcoffin a cybercom o net\n"
+"POT-Creation-Date: 2006-12-21 22:45-0500\n"
+"PO-Revision-Date: 2015-02-24 18:30-0500\n"
+"Last-Translator: Masahiro Kitagawa <arctica0316@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s: Out of memory in %s\n"
+msgstr "%s: メモリが %s で不足しています\n"
+
+msgid "Unexpected end of file\n"
+msgstr "予期しないファイル終端\n"
+
+msgid "Corrupt data near 0x%llx\n"
+msgstr "0x%llx 付近でデータ破損\n"
+
+msgid "%s: decoder table overflow\n"
+msgstr "%s: デコーダー テーブルのオーバーフロー\n"
+
+msgid "Phase One correction...\n"
+msgstr "Phase One 補正...\n"
+
+msgid "%s: incorrect JPEG dimensions\n"
+msgstr "%s: 不正な JPEG 次元\n"
+
+msgid "%s has unknown CAMF type %d.\n"
+msgstr "%s に不明な CAMF タイプ %d があります。\n"
+
+msgid "%s: \"%s\" matrix not found!\n"
+msgstr "%s: \"%s\" 行列が見つかりません!\n"
+
+msgid "Foveon interpolation...\n"
+msgstr "Foveon 補完...\n"
+
+msgid "%s: Invalid white balance \"%s\"\n"
+msgstr "%s: 不正なホワイト バランス \"%s\"\n"
+
+msgid "Fixed dead pixels at:"
+msgstr "デッド ピクセルを修正:"
+
+msgid "%s is not a valid PGM file!\n"
+msgstr "%s は正しい PGM ファイルではありません!\n"
+
+msgid "%s has the wrong dimensions!\n"
+msgstr "%s は次元が間違っています!\n"
+
+msgid "Wavelet denoising...\n"
+msgstr "ウェーブレット ノイズ除去...\n"
+
+msgid "%s: Cannot use camera white balance.\n"
+msgstr "%s: カメラのホワイト バランスを使えません。\n"
+
+msgid "Scaling with darkness %d, saturation %d, and\nmultipliers"
+msgstr "ダークネス %d, 飽和レベル %d, および\n乗数でスケーリング"
+
+msgid "Correcting chromatic aberration...\n"
+msgstr "色収差を補正しています...\n"
+
+msgid "Bilinear interpolation...\n"
+msgstr "バイリニア補完...\n"
+
+msgid "VNG interpolation...\n"
+msgstr "VNG 補完...\n"
+
+msgid "PPG interpolation...\n"
+msgstr "PPG 補完...\n"
+
+msgid "%d-pass X-Trans interpolation...\n"
+msgstr "%d-パスの X-Trans 補完...\n"
+
+msgid "AHD interpolation...\n"
+msgstr "AHD 補完...\n"
+
+msgid "Median filter pass %d...\n"
+msgstr "メディアン フィルター パス %d...\n"
+
+msgid "Blending highlights...\n"
+msgstr "ハイライトをブレンドしています...\n"
+
+msgid "Rebuilding highlights...\n"
+msgstr "ハイライトを再構築しています....\n"
+
+msgid "Reading metadata from %s ...\n"
+msgstr "メタデータを %s から読み込んでいます...\n"
+
+msgid "Failed to read metadata from %s\n"
+msgstr "メタデータを %s から読み込めませんでした\n"
+
+msgid "%s: Tail is missing, parsing from head...\n"
+msgstr "%s: 末尾が見つからないため、先頭から解析します...\n"
+
+msgid "%s: You must link dcraw with %s!!\n"
+msgstr "%s: dcraw を %s  にリンクする必要があります!!\n"
+
+msgid "%s has no embedded profile.\n"
+msgstr "%s にはプロファイルが埋め込まれていません。\n"
+
+msgid "Cannot open file %s!\n"
+msgstr "ファイル %s を開けません!\n"
+
+msgid "Applying color profile...\n"
+msgstr "カラー プロファイルを適用しています...\n"
+
+msgid "Building histograms...\n"
+msgstr "ヒストグラムを生成しています...\n"
+
+msgid "Converting to %s colorspace...\n"
+msgstr "色空間 %s へ変換しています...\n"
+
+msgid "Rotating image 45 degrees...\n"
+msgstr "画像を 45 度回転しています...\n"
+
+msgid "Stretching the image...\n"
+msgstr "画像を伸張しています...\n"
+
+msgid "\nRaw photo decoder \"dcraw\" v%s"
+msgstr "\nRaw 画像コンバーター \"dcraw\" v%s"
+
+msgid "\nby Dave Coffin, dcoffin a cybercom o net\n"
+msgstr "\nby Dave Coffin, dcoffin a cybercom o net\n"
+
+msgid "\nUsage:  %s [OPTION]... [FILE]...\n\n"
+msgstr "\n書式:  %s [オプション]... [ファイル]...\n\n"
+
+msgid "-v        Print verbose messages"
+msgstr "-v        詳細なメッセージを出力する"
+
+msgid "-c        Write image data to standard output"
+msgstr "-c        画像データを標準出力に書き出す"
+
+msgid "-e        Extract embedded thumbnail image"
+msgstr "-e        埋め込みサムネイル画像を抽出する"
+
+msgid "-i        Identify files without decoding them"
+msgstr "-i        ファイルをデコードせずに情報を表示する"
+
+msgid "-i -v     Identify files and show metadata"
+msgstr "-i -v     ファイルの情報とメタデータを表示する"
+
+msgid "-z        Change file dates to camera timestamp"
+msgstr "-z        ファイルの日時をカメラのタイム スタンプに変更する"
+
+msgid "-w        Use camera white balance, if possible"
+msgstr "-w        可能なら、カメラのホワイト バランスを使う"
+
+msgid "-a        Average the whole image for white balance"
+msgstr "-a        ホワイト バランスを求めるために画像全体を平均する"
+
+msgid "-A <x y w h> Average a grey box for white balance"
+msgstr "-A <x y 幅 高さ> ホワイト バランスを求めるために灰色の箱を平均する"
+
+msgid "-r <r g b g> Set custom white balance"
+msgstr "-r <r g b g> カスタム ホワイト バランスを設定する"
+
+msgid "+M/-M     Use/don't use an embedded color matrix"
+msgstr "+M/-M     埋め込み色行列を使用する/しない"
+
+msgid "-C <r b>  Correct chromatic aberration"
+msgstr "-C <r b>  色収差を補正する"
+
+msgid "-P <file> Fix the dead pixels listed in this file"
+msgstr "-P <ファイル>  このファイルに記載されたデッド ピクセルを修正する"
+
+msgid "-K <file> Subtract dark frame (16-bit raw PGM)"
+msgstr "-K <ファイル>  ダーク フレームを差し引く (16ビット raw PGM)"
+
+msgid "-k <num>  Set the darkness level"
+msgstr "-k <数値>  ダークネス レベルを設定する"
+
+msgid "-S <num>  Set the saturation level"
+msgstr "-S <数値>  飽和レベルを設定する"
+
+msgid "-n <num>  Set threshold for wavelet denoising"
+msgstr "-n <数値>  ウェーブレット ノイズ除去の閾値を設定する"
+
+msgid "-H [0-9]  Highlight mode (0=clip, 1=unclip, 2=blend, 3+=rebuild)"
+msgstr "-H [0-9]  ハイライト モード (0=クリップ, 1=クリップしない, 2=ブレンド, 3+=再構築)"
+
+msgid "-t [0-7]  Flip image (0=none, 3=180, 5=90CCW, 6=90CW)"
+msgstr "-t [0-7]  画像を回転する (0=なし, 3=180度, 5=時計回りに90度, 6=反時計回りに90度)"
+
+msgid "-o [0-5]  Output colorspace (raw,sRGB,Adobe,Wide,ProPhoto,XYZ)"
+msgstr "-o [0-5]  出力先の色空間 (raw,sRGB,Adobe,Wide,ProPhoto,XYZ)"
+
+msgid "-o <file> Apply output ICC profile from file"
+msgstr "-o <ファイル>  ファイルの出力 ICC プロファイルを適用する"
+
+msgid "-p <file> Apply camera ICC profile from file or \"embed\""
+msgstr "-p <ファイル>  ファイルまたは「埋め込み」のカメラ ICC プロファイルを適用する"
+
+msgid "-d        Document mode (no color, no interpolation)"
+msgstr "-d        ドキュメント モード (色なし・補完なし)"
+
+msgid "-D        Document mode without scaling (totally raw)"
+msgstr "-D        スケールなしのドキュメント モード (完全な raw)"
+
+msgid "-j        Don't stretch or rotate raw pixels"
+msgstr "-j        Raw ピクセルの回転や伸張を行わない"
+
+msgid "-W        Don't automatically brighten the image"
+msgstr "-W        画像を自動で明るくしない"
+
+msgid "-b <num>  Adjust brightness (default = 1.0)"
+msgstr "-b <数値>  明るさを調整する (規定値は 1.0)"
+
+msgid "-g <p ts> Set custom gamma curve (default = 2.222 4.5)"
+msgstr "-g <指数 足部の傾き> カスタム ガンマ曲線を設定する (規定値は 2.222 4.5)"
+
+msgid "-q [0-3]  Set the interpolation quality"
+msgstr "-q [0-3]  補完の質を指定する"
+
+msgid "-h        Half-size color image (twice as fast as \"-q 0\")"
+msgstr "-h        寸法が半分の画像 (\"-q 0\" の約 2 倍高速)"
+
+msgid "-f        Interpolate RGGB as four colors"
+msgstr "-f        RGGB を 4 色として補完する"
+
+msgid "-m <num>  Apply a 3x3 median filter to R-G and B-G"
+msgstr "-m <パス数>  3x3 メディアン フィルターを R-G と B-G に適用する"
+
+msgid "-s [0..N-1] Select one raw image or \"all\" from each file"
+msgstr "-s [0..N-1] 各ファイルから raw 画像を 1 枚選ぶか \"all\" で全てを選ぶ"
+
+msgid "-6        Write 16-bit instead of 8-bit"
+msgstr "-6        8 ビットではなく 16 ビットで出力する"
+
+msgid "-4        Linear 16-bit, same as \"-6 -W -g 1 1\""
+msgstr "-4        線形 16 ビットで、\"-6 -W -g 1 1\" と同等"
+
+msgid "-T        Write TIFF instead of PPM"
+msgstr "-T        PPM ではなく TIFF を出力する"
+
+msgid "Non-numeric argument to \"-%c\"\n"
+msgstr "\"-%c\" に数値以外を指定しました\n"
+
+msgid "Unknown option \"-%c\".\n"
+msgstr "不明なオプション \"-%c\"\n"
+
+msgid "No files to process.\n"
+msgstr "処理するファイルがありません。\n"
+
+msgid "Will not write an image to the terminal!\n"
+msgstr "画像は端末に出力されません!\n"
+
+msgid "%s has no timestamp.\n"
+msgstr "%s にはタイムスタンプがありません。\n"
+
+msgid "%s time set to %d.\n"
+msgstr "%s の時刻が %d に設定されました。\n"
+
+msgid "%s has no thumbnail.\n"
+msgstr "%s にはサムネイルがありません.\n"
+
+msgid "\nFilename: %s\n"
+msgstr "\nファイル名: %s\n"
+
+msgid "Timestamp: %s"
+msgstr "タイムスタンプ: %s"
+
+msgid "Camera: %s %s\n"
+msgstr "カメラ: %s %s\n"
+
+msgid "Owner: %s\n"
+msgstr "所有者: %s\n"
+
+msgid "DNG Version: "
+msgstr "DNG バージョン: "
+
+msgid "ISO speed: %d\n"
+msgstr "ISO 感度: %d\n"
+
+msgid "Shutter: "
+msgstr "シャッター速度: "
+
+msgid "%0.1f sec\n"
+msgstr "%0.1f 秒\n"
+
+msgid "Aperture: f/%0.1f\n"
+msgstr "絞り: f/%0.1f\n"
+
+msgid "Focal length: %0.1f mm\n"
+msgstr "焦点距離: %0.1f mm\n"
+
+msgid "yes"
+msgstr "はい"
+
+msgid "no"
+msgstr "いいえ"
+
+msgid "Embedded ICC profile: %s\n"
+msgstr "埋め込み ICC プロファイル: %s\n"
+
+msgid "Number of raw images: %d\n"
+msgstr "Raw 画像の数: %d\n"
+
+msgid "Pixel Aspect Ratio: %0.6f\n"
+msgstr "ピクセルのアスペクト比: %0.6f\n"
+
+msgid "Thumb size:  %4d x %d\n"
+msgstr "サムネイル サイズ: %4d x %d\n"
+
+msgid "Full size:   %4d x %d\n"
+msgstr "フル サイズ:   %4d x %d\n"
+
+msgid "Cannot decode file %s\n"
+msgstr "デコードできないファイル %s\n"
+
+msgid "Image size:  %4d x %d\n"
+msgstr "画像サイズ:   %4d x %d\n"
+
+msgid "Output size: %4d x %d\n"
+msgstr "出力サイズ:   %4d x %d\n"
+
+msgid "Raw colors: %d"
+msgstr "Raw の色: %d"
+
+msgid "\nFilter pattern: "
+msgstr "\nフィルター パターン: "
+
+msgid "\nDaylight multipliers:"
+msgstr "\nデイライト乗数:"
+
+msgid "\nCamera multipliers:"
+msgstr "\nカメラ乗数:"
+
+msgid "%s is a %s %s image.\n"
+msgstr "%s は %s %s 画像です。\n"
+
+msgid "Loading %s %s image from %s ...\n"
+msgstr "画像 %s %s を %s から読み込み中...\n"
+
+msgid "%s: \"-s %d\" requests a nonexistent image!\n"
+msgstr "%s: \"-s %d\" は存在しない画像を要求しています!\n"
+
+msgid "standard output"
+msgstr "標準出力"
+
+msgid "Writing data to %s ...\n"
+msgstr "データを %s に書き込み中...\n"

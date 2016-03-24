@@ -1,0 +1,357 @@
+# Romanian translation of dcraw messages.
+# (c) 2009 Dave Coffin dcoffin a cybercom o net
+# Distribute freely.
+#
+# Traducere în limba română a mesajelor dcraw
+# (c) 2009 Dave Coffin dcoffin a cybercom o net
+# Distribuire liberă
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dcraw 9.10\n"
+"Report-Msgid-Bugs-To: dcoffin a cybercom o net\n"
+"POT-Creation-Date: 2006-12-21 22:45-0500\n"
+"PO-Revision-Date: 2015-02-18 01:05+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"Last-Translator: Oprea Nicolae <jaff2002@yahoo.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "%s: Out of memory in %s\n"
+msgstr "%s: Memorie insuficientă în %s\n"
+
+msgid "Unexpected end of file\n"
+msgstr "Sfîrşit de fişier neaşteptat\n"
+
+msgid "Corrupt data near 0x%llx\n"
+msgstr "Date corupte în apropiere de 0x%llx\n"
+
+msgid "%s: decoder table overflow\n"
+msgstr "%s: tabelă decodor supraplină\n"
+
+msgid "Phase One correction...\n"
+msgstr "Corecţie Phase One...\n"
+
+msgid "%s: incorrect JPEG dimensions\n"
+msgstr "%s: dimensiuni JPEG incorecte\n"
+
+msgid "%s: \"%s\" matrix not found!\n"
+msgstr "%s: \"%s\" matricea nu a fost găsită!\n"
+
+msgid "Foveon interpolation...\n"
+msgstr "Interpolare Foveon...\n"
+
+msgid "%s: Invalid white balance \"%s\"\n"
+msgstr "%s: Balans de alb nevalid \"%s\"\n"
+
+msgid "Fixed dead pixels at:"
+msgstr "Pixelii morţi reparaţi la:"
+
+msgid "%s is not a valid PGM file!\n"
+msgstr "%s nu este un fişier valid PGM!\n"
+
+msgid "%s has the wrong dimensions!\n"
+msgstr "%s are dimensiuni greşite!\n"
+
+msgid "Wavelet denoising...\n"
+msgstr "Reducere zgomot wavelet...\n"
+
+msgid "%s: Cannot use camera white balance.\n"
+msgstr "%s: Nu se poate folosi balansul de alb al camerei.\n"
+
+msgid "Scaling with darkness %d, saturation %d, and\nmultipliers"
+msgstr "Redimensionare cu întunecime %d, saturaţie %d, şi\nmultiplicatori"
+
+msgid "Correcting chromatic aberration...\n"
+msgstr "Corectare aberaţii cromatice...\n"
+
+msgid "Bilinear interpolation...\n"
+msgstr "Interpolare bilineară...\n"
+
+msgid "VNG interpolation...\n"
+msgstr "Interpolare VNG...\n"
+
+msgid "PPG interpolation...\n"
+msgstr "Interpolare PPG...\n"
+
+msgid "AHD interpolation...\n"
+msgstr "Interpolare AHD...\n"
+
+msgid "Median filter pass %d...\n"
+msgstr "Pas filtru median %d...\n"
+
+msgid "Blending highlights...\n"
+msgstr "Îmbinare părţi luminoase...\n"
+
+msgid "Rebuilding highlights...\n"
+msgstr "Reconstruire părţi luminoase...\n"
+
+msgid "Reading metadata from %s ...\n"
+msgstr "Citire metadate din %s ...\n"
+
+msgid "Failed to read metadata from %s\n"
+msgstr "Nu s-a reuşit citirea metadatelor din %s\n"
+
+msgid "%s: Tail is missing, parsing from head...\n"
+msgstr "%s: Coada lipseşte, parsare de la început...\n"
+
+msgid "%s: You must link dcraw with libjpeg!!\n"
+msgstr "%s: Trebuie să legaţi dcraw cu libjpeg!!\n"
+
+msgid "%s: You must link dcraw with %s!!\n"
+msgstr "%s: Trebuie să legaţi dcraw cu %s!!\n"
+
+msgid "%s has no embedded profile.\n"
+msgstr "%s nu are profil încorporat.\n"
+
+msgid "Cannot open file %s!\n"
+msgstr "Nu se poate deschide fişierul %s!\n"
+
+msgid "Applying color profile...\n"
+msgstr "Aplicare profil culoare...\n"
+
+msgid "Building histograms...\n"
+msgstr "Contruire histograme...\n"
+
+msgid "Converting to %s colorspace...\n"
+msgstr "Convertire la spaţiul de culoare %s ...\n"
+
+msgid "Rotating image 45 degrees...\n"
+msgstr "Rotire imagine la 45 grade...\n"
+
+msgid "Stretching the image...\n"
+msgstr "Redimensionare imagine...\n"
+
+msgid "\nRaw photo decoder \"dcraw\" v%s"
+msgstr "\nDecodor fotografii Raw \"dcraw\" v%s"
+
+msgid "\nby Dave Coffin, dcoffin a cybercom o net\n"
+msgstr "\nde Dave Coffin, dcoffin a cybercom o net\n"
+
+msgid "\nUsage:  %s [OPTION]... [FILE]...\n\n"
+msgstr "\nFolosire: %s [OPŢIUNE]... [FIŞIER]...\n\n"
+
+msgid "-v        Print verbose messages"
+msgstr "-v        Afişează mesaje detaliate"
+
+msgid "-c        Write image data to standard output"
+msgstr "-c        Scrie datele imaginii la ieşirea standard"
+
+msgid "-e        Extract embedded thumbnail image"
+msgstr "-e        Extrage imaginea miniatură"
+
+msgid "-i        Identify files without decoding them"
+msgstr "-i        Identifică fişierele fără a le decoda"
+
+msgid "-i -v     Identify files and show metadata"
+msgstr "-i -v     Identifică fişierele şi arată metadatele"
+
+msgid "-z        Change file dates to camera timestamp"
+msgstr "-z        Schimbă datele fişierului cu marcajul temporal al camerei"
+
+msgid "-w        Use camera white balance, if possible"
+msgstr "-w        Foloseşte balansul de alb al camerei, dacă este posibil"
+
+msgid "-a        Average the whole image for white balance"
+msgstr "-a        Face media întregii imagini pentru balansul de alb"
+
+msgid "-A <x y w h> Average a grey box for white balance"
+msgstr "-A <x y ∆x ∆y> Face media unei zone gri pentru balansul de alb"
+
+msgid "-r <r g b g> Set custom white balance"
+msgstr "-r <r g b g> Setează balansul de alb"
+
+msgid "+M/-M     Use/don't use an embedded color matrix"
+msgstr "+M/-M     Foloseşte/nu foloseşte matricea de culoare încorporată"
+
+msgid "-C <r b>  Correct chromatic aberration"
+msgstr "-C <r b>  Corectează aberaţia cromatică"
+
+msgid "-P <file> Fix the dead pixels listed in this file"
+msgstr "-P <fişier> Repară pixelii morţi listaţi în acest fişier"
+
+msgid "-K <file> Subtract dark frame (16-bit raw PGM)"
+msgstr "-K <fişier> Scade cadru negru (16-biţi raw PGM)"
+
+msgid "-k <num>  Set the darkness level"
+msgstr "-k <num>  Setează nivelul de întunecime"
+
+msgid "-S <num>  Set the saturation level"
+msgstr "-S <num>  Setează nivelul saturaţiei"
+
+msgid "-n <num>  Set threshold for wavelet denoising"
+msgstr "-n <num>  Setează prag pentru reducere de zgomot wavelet"
+
+msgid "-H [0-9]  Highlight mode (0=clip, 1=unclip, 2=blend, 3+=rebuild)"
+msgstr "-H [0-9]  Mod evidenţiere (0=clip, 1=unclip, 2=îmbinat, 3+=reconstruit)"
+
+msgid "-t [0-7]  Flip image (0=none, 3=180, 5=90CCW, 6=90CW)"
+msgstr "-t [0-7]  Întoarcere imagine (0=niciuna, 3=180, 5=90 grade la stînga, 6=90 grade la dreapta)"
+
+msgid "-o [0-5]  Output colorspace (raw,sRGB,Adobe,Wide,ProPhoto,XYZ)"
+msgstr "-o [0-5]  Spaţiu de culoare de ieşire (raw,sRGB,Adobe,Wide,ProPhoto,XYZ)"
+
+msgid "-o <file> Apply output ICC profile from file"
+msgstr "-o <fişier> Aplică profil de ieşire ICC din fişier"
+
+msgid "-p <file> Apply camera ICC profile from file or \"embed\""
+msgstr "-p <fişier> Aplică profil aparat ICC din fişier sau \"embed\" (încorporat)"
+
+msgid "-d        Document mode (no color, no interpolation)"
+msgstr "-d        Mod document (fără culori, fără interpolare)"
+
+msgid "-D        Document mode without scaling (totally raw)"
+msgstr "-D        Mod document fără scalare (raw total)"
+
+msgid "-j        Don't stretch or rotate raw pixels"
+msgstr "-j        Nu redimensionează sau roteşte pixelii raw"
+
+msgid "-W        Don't automatically brighten the image"
+msgstr "-W        Nu luminează automat imaginea"
+
+msgid "-b <num>  Adjust brightness (default = 1.0)"
+msgstr "-b <num>  Adjustează luminozitatea (iniţial = 1.0)"
+
+msgid "-g <p ts> Set custom gamma curve (default = 2.222 4.5)"
+msgstr "-g <p ts> Setează curbă gamma personalizată (iniţial = 2.222 4.5)"
+
+msgid "-q [0-3]  Set the interpolation quality"
+msgstr "-q [0-3]  Setează calitatea interpolării"
+
+msgid "-h        Half-size color image (twice as fast as \"-q 0\")"
+msgstr "-h        Jumătate de imagine color (de două ori mai rapid ca \"-q 0\")"
+
+msgid "-f        Interpolate RGGB as four colors"
+msgstr "-f        Interpolează RGGB ca patru culori"
+
+msgid "-m <num>  Apply a 3x3 median filter to R-G and B-G"
+msgstr "-m <num>  Aplică filtru median 3x3 la R-G şi B-G"
+
+msgid "-s [0..N-1] Select one raw image or \"all\" from each file"
+msgstr "-s [0..N-1] Selectează o imaine raw sau \"all\" (toate) din fiecare fişier"
+
+msgid "-6        Write 16-bit instead of 8-bit"
+msgstr "-6        Scrie 16-bit în loc de 8-biţi"
+
+msgid "-4        Linear 16-bit, same as \"-6 -W -g 1 1\""
+msgstr "-4        Liniar 16-biţu, la fel ca \"-6 -W -g 1 1\""
+
+msgid "-4        Write 16-bit linear instead of 8-bit with gamma"
+msgstr "-4        Scrie 16-biţi liniar în loc de 8-biţi cu gamma"
+
+msgid "-T        Write TIFF instead of PPM"
+msgstr "-T        Scrie TIFF în loc de PPM"
+
+msgid "Non-numeric argument to \"-%c\"\n"
+msgstr "Argument non-numeric la \"-%c\"\n"
+
+msgid "Unknown option \"-%c\".\n"
+msgstr "Opţiune necunoscută \"-%c\".\n"
+
+msgid "No files to process.\n"
+msgstr "Nu sînt fişiere de procesat.\n"
+
+msgid "Will not write an image to the terminal!\n"
+msgstr "Nu va scrie o imagine la terminal!\n"
+
+msgid "%s has no timestamp.\n"
+msgstr "%s nu are marcaj temporal.\n"
+
+msgid "%s time set to %d.\n"
+msgstr "%s timp setat la %d.\n"
+
+msgid "%s has no thumbnail.\n"
+msgstr "%s nu are miniatură.\n"
+
+msgid "\nFilename: %s\n"
+msgstr "\nFişier: %s\n"
+
+msgid "Timestamp: %s"
+msgstr "Marcaj temporal: %s"
+
+msgid "Camera: %s %s\n"
+msgstr "Camera: %s %s\n"
+
+msgid "Owner: %s\n"
+msgstr "Proprietar: %s\n"
+
+msgid "DNG Version: "
+msgstr "Versiune DNG:"
+
+msgid "ISO speed: %d\n"
+msgstr "Sensibilitate ISO: %d\n"
+
+msgid "Shutter: "
+msgstr "Obturator:"
+
+msgid "%0.1f sec\n"
+msgstr "%0.1f sec\n"
+
+msgid "Aperture: f/%0.1f\n"
+msgstr "Diafragmă: f/%0.1f\n"
+
+msgid "Focal length: %0.1f mm\n"
+msgstr "Distanţă focală: %0.1f mm\n"
+
+msgid "yes"
+msgstr "da"
+
+msgid "no"
+msgstr "nu"
+
+msgid "Embedded ICC profile: %s\n"
+msgstr "Profil ICC inclus: %s\n"
+
+msgid "Number of raw images: %d\n"
+msgstr "Numărul imaginilor raw: %d\n"
+
+msgid "Pixel Aspect Ratio: %0.6f\n"
+msgstr "Raport de aspect pixel: %0.6f\n"
+
+msgid "Thumb size:  %4d x %d\n"
+msgstr "Mărime miniatură: %4d x %d\n"
+
+msgid "Full size:   %4d x %d\n"
+msgstr "Mărime maximă:    %4d x %d\n"
+
+msgid "Cannot decode file %s\n"
+msgstr "Nu se poate decoda fişierul %s\n"
+
+msgid "Image size:  %4d x %d\n"
+msgstr "Mărime imagine:   %4d x %d\n"
+
+msgid "Output size: %4d x %d\n"
+msgstr "Mărime ieşire:    %4d x %d\n"
+
+msgid "Raw colors: %d"
+msgstr "Culori raw: %d"
+
+msgid "\nFilter pattern: "
+msgstr "\nModel filtru: "
+
+msgid "\nDaylight multipliers:"
+msgstr "\nMultiplicatori lumina zilei:"
+
+msgid "\nCamera multipliers:"
+msgstr "\nMultiplicatori aparat:"
+
+msgid "%s is a %s %s image.\n"
+msgstr "%s este o %s %s imagine.\n"
+
+msgid "Loading %s %s image from %s ...\n"
+msgstr "Se încarcă %s %s imaginea din %s ...\n"
+
+msgid "%s: \"-s %d\" requests a nonexistent image!\n"
+msgstr "%s: \"-s %d\" solicită o imagine inexistentă!\n"
+
+msgid "standard output"
+msgstr "ieşire standard"
+
+msgid "Writing data to %s ...\n"
+msgstr "Scriere date la %s ...\n"
